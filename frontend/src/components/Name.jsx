@@ -1,4 +1,5 @@
 // import { PointerHighlight } from "../../ui/pointer-highlight";
+import pfp from '../assets/pfp.jpg'
 
 export default function Name() {
     return (
@@ -6,7 +7,7 @@ export default function Name() {
             {/* Profile Image */}
             <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
                 <img
-                    src="/nishul.jpg"
+                    src={pfp}
                     alt="Madhur Bhawsar"
                     width={100}
                     height={120}

@@ -35,17 +35,19 @@ const data = [
 
 const TeckStack = () => {
     return (
-        <div className="flex flex-wrap gap-4">
-            <h1>Teck Stack.</h1>
+        <div className="flex flex-wrap gap-4 mt-[4rem]">
+            <h1 className='text-2xl'>Tech Stack.</h1>
+            <div className='flex flex-wrap gap-3'>
             {data.map((item, index) => {
                 const Icon = item.icon; // Assign the icon component
                 return (
-                    <div key={index} className="flex items-center gap-2">
+                    <div key={index} className="flex items-center gap-2 px-2 py-1 rounded-lg  bg-[#131313] border border-[#363636]">
                         <Icon className={`w-6 h-6 ${item.color}`} />
                         <span>{item.name}</span>
                     </div>
                 );
             })}
+            </div>
         </div>
     )
 }
