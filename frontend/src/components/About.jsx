@@ -1,4 +1,6 @@
 import React from 'react'
+import { FaRegFilePdf } from "react-icons/fa";
+
 
 const About = () => {
     return (
@@ -35,6 +37,10 @@ const About = () => {
                         <span className='w-2 h-2 bg-blue-600 rounded-2xl'></span>
                         <span>Open to freelance</span>
                     </div> */}
+                    <button className='w-full  flex justify-center items-center py-1 bg-[#0B0B0B] border border-[#363636] rounded-lg'>
+                        <FaRegFilePdf />
+                        <span>Resume</span>
+                    </button>
                 </div>
             </div>
         </div>
