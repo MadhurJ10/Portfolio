@@ -1,6 +1,8 @@
 import React from "react";
-import { FaGithub, FaMedium, FaThreads } from "react-icons/fa6";
+import { FaGithub, FaMedium, FaThreads ,FaXTwitter } from "react-icons/fa6";
 import { SiLeetcode, SiLinkedin } from "react-icons/si";
+
+
 
 const Footer = () => {
   return (
@@ -14,7 +16,7 @@ const Footer = () => {
       {/* Social Links */}
       <div className="flex flex-wrap justify-center gap-4 mb-10">
         <a
-          href="https://github.com/"
+          href="https://github.com/MadhurJ10"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 border border-gray-600 px-4 py-2 rounded-md hover:bg-gray-800 transition"
@@ -30,7 +32,7 @@ const Footer = () => {
           <SiLeetcode /> LeetCode
         </a>
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/madhur-bhawsar-aa71a8290/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 border border-gray-600 px-4 py-2 rounded-md hover:bg-gray-800 transition"
@@ -38,12 +40,12 @@ const Footer = () => {
           <SiLinkedin /> LinkedIn
         </a>
         <a
-          href="https://threads.net/"
+          href="https://x.com/0xmadhur"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 border border-gray-600 px-4 py-2 rounded-md hover:bg-gray-800 transition"
         >
-          <FaThreads /> Threads
+          <FaXTwitter /> 
         </a>
         <a
           href="https://medium.com/"
@@ -63,14 +65,14 @@ const Footer = () => {
       <p>
         Feel free to drop me an{" "}
         <a
-          href="mailto:your-email@example.com"
+          href="madhurbhawsar7@gmail.com"
           className="text-blue-400 hover:underline"
         >
           email
         </a>{" "}
         or connect with me on{" "}
         <a
-          href="https://linkedin.com/"
+          href="https://www.linkedin.com/in/madhur-bhawsar-aa71a8290/"
           className="text-blue-400 hover:underline"
           target="_blank"
           rel="noopener noreferrer"

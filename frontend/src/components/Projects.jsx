@@ -1,19 +1,17 @@
-import React from 'react'
-import ProjectCard from './ProjectCard'
+import ProjectCard from './ProjectCard';
+import { useContext } from 'react';
+import { TechStackContext } from '../context/TechStackProvider';
 
 const Projects = () => {
+  const { projects } = useContext(TechStackContext);
+
   return (
-    <div>
-      <h1>My Projects</h1>
-      <div className='grid grid-cols-1 sm:grid-cols-2'>
-        <ProjectCard/>
-        <ProjectCard/>
-        <ProjectCard/>
-
-
-      </div>
+    <div className="flex flex-wrap gap-6">
+      {projects.map((proj, idx) => (
+        <ProjectCard key={idx} {...proj} />
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
