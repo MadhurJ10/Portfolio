@@ -37,10 +37,13 @@ const About = () => {
                         <span className='w-2 h-2 bg-blue-600 rounded-2xl'></span>
                         <span>Open to freelance</span>
                     </div> */}
-                    <button className='w-full  flex justify-center items-center py-1 bg-[#0B0B0B] border border-[#363636] rounded-lg'>
-                        <FaRegFilePdf />
-                        <span>Resume</span>
-                    </button>
+                    <a href="https://drive.google.com/file/d/1C6xiiupW0cNKcC5hshAJoS1vuW--j7YI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                        <button className='w-full flex justify-center items-center py-1 bg-[#0B0B0B] border border-[#363636] rounded-lg'>
+                            <FaRegFilePdf className="mr-2" />
+                            <span>Resume</span>
+                        </button>
+                    </a>
+
                 </div>
             </div>
         </div>

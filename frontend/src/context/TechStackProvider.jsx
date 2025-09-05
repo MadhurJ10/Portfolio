@@ -7,6 +7,10 @@ import { TbBrandFramerMotion } from "react-icons/tb";
 import { SiRedux, SiExpress, SiSocketdotio, SiMongodb, SiPostgresql, SiMysql, SiKubernetes, SiGithubactions } from "react-icons/si";
 import { PiFileCssFill } from "react-icons/pi";
 import pfp from '../assets/pfp.jpg'
+import { SiC } from 'react-icons/si';
+import privacy from '../assets/privacy.png'
+import mindweave from '../assets/mindweave.png'
+
 
 
 export const TechStackContext = createContext();
@@ -37,6 +41,8 @@ const TechStackProvider = ({ children }) => {
         { name: "Git", icon: FaGitAlt, color: "text-red-600", variant: "outline" },
         { name: "GitHub", icon: FaGithub, color: "text-gray-900 dark:text-white", variant: "outline" },
         { name: "Java", icon: FaJava, color: "text-orange-600", variant: "secondary" },
+        { name: "C", icon: SiC, color: "text-orange-600", variant: "secondary" },
+
     ];
 
     const projects = [
@@ -45,18 +51,18 @@ const TechStackProvider = ({ children }) => {
             status: "Running",
             description: "A full-featured privacy dashboard to manage app permissions, check data breaches, and more.",
             techStack: [ "Next.js", "Tailwind", "MongoDB" ],
-            image: pfp,
-            liveLink: "https://privacyguard.com",
-            githubLink: "https://github.com/madhur/privacy-guard"
+            image: privacy,
+            liveLink: "https://privacy-guard-rho.vercel.app/",
+            githubLink: "https://github.com/MadhurJ10/Privacy-Guard"
         },
         {
-            title: "Nova AI",
+            title: "MindWeave",
             status: "Completed",
             description: "Personal AI assistant to manage tasks, answer queries, and generate reports.",
             techStack: [ "React", "Node.js", "OpenAI API" ],
-            image: pfp,
+            image: mindweave,
             liveLink: "https://novaai.com",
-            githubLink: "https://github.com/madhur/nova-ai"
+            githubLink: "https://github.com/MadhurJ10/Mind-Weave"
         }
     ];
 
