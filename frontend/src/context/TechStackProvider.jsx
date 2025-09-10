@@ -4,12 +4,14 @@ import { FaHtml5, FaBootstrap, FaJs, FaReact, FaNodeJs, FaDocker, FaGitAlt, FaGi
 import { BiLogoTypescript } from "react-icons/bi";
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandFramerMotion } from "react-icons/tb";
-import { SiRedux, SiExpress, SiSocketdotio, SiMongodb, SiPostgresql, SiMysql, SiKubernetes, SiGithubactions } from "react-icons/si";
+import {SiPostman ,SiRedux, SiExpress, SiSocketdotio, SiMongodb, SiPostgresql, SiMysql, SiKubernetes, SiGithubactions } from "react-icons/si";
 import { PiFileCssFill } from "react-icons/pi";
 import pfp from '../assets/pfp.jpg'
 import { SiC } from 'react-icons/si';
 import privacy from '../assets/privacy.png'
 import mindweave from '../assets/mindweave.png'
+
+
 
 
 
@@ -38,10 +40,11 @@ const TechStackProvider = ({ children }) => {
         // { name: "Docker", icon: FaDocker, color: "text-cyan-600", variant: "outline" },
         // { name: "Kubernetes", icon: SiKubernetes, color: "text-blue-500", variant: "outline" },
         // { name: "CI/CD", icon: SiGithubactions, color: "text-gray-800", variant: "outline" },
+        { name: "Postman", icon: SiPostman, color: "text-[#FF6C37]", variant: "outline" },
         { name: "Git", icon: FaGitAlt, color: "text-red-600", variant: "outline" },
         { name: "GitHub", icon: FaGithub, color: "text-gray-900 dark:text-white", variant: "outline" },
         { name: "Java", icon: FaJava, color: "text-orange-600", variant: "secondary" },
-        { name: "C", icon: SiC, color: "text-orange-600", variant: "secondary" },
+        // { name: "C", icon: SiC, color: "text-orange-600", variant: "secondary" },
 
     ];
 

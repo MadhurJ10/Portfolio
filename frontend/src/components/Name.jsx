@@ -3,7 +3,7 @@ import pfp from '../assets/pfp.jpg'
 
 export default function Name() {
     return (
-        <div className="mb-10 flex flex-col items-start gap-10 lg:flex-row lg:items-center">
+        <div className="mb-5 flex flex-col items-start gap-10 lg:flex-row lg:items-center">
             {/* Profile Image */}
             <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
                 <img

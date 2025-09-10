@@ -3,7 +3,7 @@ import logo from '../assets/logo.jpeg'
 
 const Education = () => {
   return (
-    <div className="flex min-h-0 flex-col gap-y-3">
+    <div className="flex min-h-0 flex-col gap-y-3 mt-[4rem]">
       <div
         style={{ opacity: 1, filter: "blur(0px)", transform: "translateY(-6px)" }}
       >

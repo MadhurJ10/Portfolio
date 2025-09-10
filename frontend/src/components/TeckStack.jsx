@@ -19,7 +19,7 @@ const TeckStack = () => {
                     return (
                         <div key={index} className="flex items-center gap-2 px-2 py-1 rounded-lg  bg-[#131313] border border-[#363636]">
                             <Icon className={`w-6 h-6 ${item.color}`} />
-                            <span>{item.name}</span>
+                            <span className='font-semibold text-sm'>{item.name}</span>
                         </div>
                     );
                 })}
