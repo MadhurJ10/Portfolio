@@ -49,7 +49,7 @@ const Education = () => {
                     2023 - 2027
                   </div>
                 </div>
-                <div className="font-sans text-xs">B-Tech in Information Technology</div>
+                <div className="font-sans text-xs">B-Tech in Cse(iot)</div>
               </div>
             </div>
           </div>
