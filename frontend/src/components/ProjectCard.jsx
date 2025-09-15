@@ -2,14 +2,14 @@ import React from 'react';
 import { PiGithubLogoBold } from "react-icons/pi";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-const ProjectCard = ({ 
-  title, 
-  status, 
-  description, 
-  techStack = [], 
-  image, 
-  liveLink, 
-  githubLink 
+const ProjectCard = ({
+  title,
+  status,
+  description,
+  techStack = [],
+  image,
+  liveLink,
+  githubLink,
 }) => {
   return (
     <div className="bg-[#0A0A0A] w-[20rem] px-6 py-6 border border-[#363636] relative rounded-lg overflow-hidden">
@@ -43,14 +43,18 @@ const ProjectCard = ({
 
         {/* Tech stack row */}
         <div className="flex flex-wrap gap-2 mt-2">
-          {techStack.map((tech, index) => (
-            <span
-              key={index}
-              className="bg-[#1c1c1c] border border-[#2f2f2f] text-gray-300 text-xs px-2 py-1 rounded-md"
-            >
-              {tech}
-            </span>
-          ))}
+          {techStack.map((tech, index) => {
+            const TechIcon = tech.icon;
+            return (
+              <span
+                key={index}
+                className="flex items-center gap-2 bg-[#1c1c1c] border border-[#2f2f2f] text-gray-300 text-xs px-2 py-1 rounded-md"
+              >
+                {TechIcon && <TechIcon className={`${tech.color} text-base`} />}
+                {tech.name}
+              </span>
+            );
+          })}
         </div>
 
         {/* Footer Icons */}
