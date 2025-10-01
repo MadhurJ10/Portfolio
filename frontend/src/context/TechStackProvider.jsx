@@ -7,6 +7,10 @@ import { PiFileCssFill } from "react-icons/pi";
 import pfp from '../assets/pfp.jpg'
 import privacy from '../assets/privacy.png'
 import mindweave from '../assets/mindweave.png'
+import mind2 from '../assets/mind2.png'
+import mind3 from '../assets/mind3.png'
+
+
 
 export const TechStackContext = createContext();
 
@@ -34,10 +38,24 @@ const TechStackProvider = ({ children }) => {
 
   const projects = [
     {
+      title: "Float Chat",
+      status: "Building",
+      description: "A full-stack security tool that helps users generate strong passwords, check for data breaches, manage app permissions, and more. Features a password vault, disposable email, fake-data generator, and a modern dashboard — all crafted with the MERN stack.",
+      image: privacy,
+      liveLink: "https://privacy-guard-rho.vercel.app/",
+      githubLink: "https://github.com/MadhurJ10/Privacy-Guard",
+      techStack: [
+        { name: "React", icon: FaReact, color: "text-cyan-500" },
+        { name: "Node.js", icon: FaNodeJs, color: "text-green-600" },
+        { name: "REST API", icon: FaProjectDiagram, color: "text-green-600" },
+        { name: "PostgreSQL", icon: SiPostgresql, color: "text-sky-700" },
+      ],
+    },
+    {
       title: "MindWeave",
       status: "Completed",
       description: "An AI-powered concept-mapping platform that lets you brainstorm, organize, and visualize ideas in real time. Built with Prisma, PostgreSQL, and Gemini AI, it supports zoomable, Excalidraw-style layouts for effortless knowledge mapping.",
-      image: mindweave,
+      image: mind2,
       liveLink: "https://mindweave-theta.vercel.app/",
       githubLink: "https://github.com/MadhurJ10/Mind-Weave",
       techStack: [
@@ -60,7 +78,20 @@ const TechStackProvider = ({ children }) => {
         { name: "Tailwind", icon: RiTailwindCssFill, color: "text-cyan-600" },
         { name: "JavaScript", icon: FaJs, color: "text-yellow-500" }
       ],
-    },
+    }, {
+      title: "resume-checker",
+      status: "Running",
+      description: "A full-stack security tool that helps users generate strong passwords, check for data breaches, manage app permissions, and more. Features a password vault, disposable email, fake-data generator, and a modern dashboard — all crafted with the MERN stack.",
+      image: privacy,
+      liveLink: "https://privacy-guard-rho.vercel.app/",
+      githubLink: "https://github.com/MadhurJ10/Privacy-Guard",
+      techStack: [
+        { name: "React.js", icon: RiNextjsFill, color: "text-gray-900 dark:text-white" },
+        { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
+        { name: "Tailwind", icon: RiTailwindCssFill, color: "text-cyan-600" },
+        { name: "JavaScript", icon: FaJs, color: "text-yellow-500" }
+      ],
+    }
   ];
 
   return (

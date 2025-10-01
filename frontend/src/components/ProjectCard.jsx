@@ -32,10 +32,14 @@ const ProjectCard = ({
         <div className="flex justify-between items-center">
           <strong className="text-white text-lg">{title}</strong>
           {status && (
-            <span className="bg-green-500 text-black text-xs px-3 py-0.5 rounded-full font-medium">
+            <span
+              className={`text-xs px-3 py-0.5 rounded-full font-medium ${status === "Building" ? "bg-yellow-400 text-black" : "bg-green-500 text-black"
+                }`}
+            >
               {status}
             </span>
           )}
+
         </div>
 
         {/* Description */}
