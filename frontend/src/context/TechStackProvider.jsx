@@ -96,7 +96,7 @@ const TechStackProvider = ({ children }) => {
     },
     {
       title: "Privacy Guard",
-      status: "Running",
+      status: "Completed",
       description: "A full-stack security tool that helps users generate strong passwords, check for data breaches, manage app permissions, and more. Features a password vault, disposable email, fake-data generator, and a modern dashboard — all crafted with the MERN stack.",
       image: privacy,
       liveLink: "https://privacy-guard-rho.vercel.app/",
@@ -109,7 +109,7 @@ const TechStackProvider = ({ children }) => {
       ],
     }, {
       title: "resume-checker",
-      status: "Running",
+      status: "Completed",
       description: "Resume Checker – A web tool that analyzes resumes for ATS compatibility, skill matching, and formatting issues. Built with React and modern frontend technologies to provide instant, actionable feedback for job seekers.",
       image: resumecheck,
       liveLink: "https://resume-checker-rouge.vercel.app/",
