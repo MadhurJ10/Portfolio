@@ -69,7 +69,7 @@ const TechStackProvider = ({ children }) => {
     {
       title: "Float Chat",
       status: "Building",
-      description: "A full-stack security tool that helps users generate strong passwords, check for data breaches, manage app permissions, and more. Features a password vault, disposable email, fake-data generator, and a modern dashboard — all crafted with the MERN stack.",
+      description: "FloatChat – An AI-powered conversational tool that lets users query and visualize oceanographic (ARGO NetCDF) and agricultural datasets using natural language. Built with GenAI, structured databases, and interactive dashboards for intuitive, real-time insights.",
       image: floatchat,
       liveLink: "https://privacy-guard-rho.vercel.app/",
       githubLink: "https://github.com/MadhurJ10/Privacy-Guard",
@@ -102,7 +102,7 @@ const TechStackProvider = ({ children }) => {
       liveLink: "https://privacy-guard-rho.vercel.app/",
       githubLink: "https://github.com/MadhurJ10/Privacy-Guard",
       techStack: [
-        { name: "React.js", icon: RiNextjsFill, color: "text-gray-900 dark:text-white" },
+        { name: "React.js", icon: FaReact, color: "text-cyan-500 " },
         { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
         { name: "Tailwind", icon: RiTailwindCssFill, color: "text-cyan-600" },
         { name: "JavaScript", icon: FaJs, color: "text-yellow-500" }
@@ -110,12 +110,12 @@ const TechStackProvider = ({ children }) => {
     }, {
       title: "resume-checker",
       status: "Running",
-      description: "A full-stack security tool that helps users generate strong passwords, check for data breaches, manage app permissions, and more. Features a password vault, disposable email, fake-data generator, and a modern dashboard — all crafted with the MERN stack.",
+      description: "Resume Checker – A web tool that analyzes resumes for ATS compatibility, skill matching, and formatting issues. Built with React and modern frontend technologies to provide instant, actionable feedback for job seekers.",
       image: resumecheck,
       liveLink: "https://resume-checker-rouge.vercel.app/",
       githubLink: "https://github.com/MadhurJ10/ResumeChecker",
       techStack: [
-        { name: "React.js", icon: RiNextjsFill, color: "text-gray-900 dark:text-white" },
+        { name: "React.js", icon: FaReact, color: "text-cyan-500 " },
         { name: "MongoDB", icon: SiMongodb, color: "text-green-500" },
         { name: "Tailwind", icon: RiTailwindCssFill, color: "text-cyan-600" },
         { name: "JavaScript", icon: FaJs, color: "text-yellow-500" }
