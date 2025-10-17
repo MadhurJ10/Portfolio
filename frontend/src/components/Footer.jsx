@@ -23,14 +23,14 @@ const Footer = () => {
         >
           <FaGithub /> GitHub
         </a>
-        <a
+        {/* <a
           href="https://leetcode.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 border border-gray-600 px-4 py-2 rounded-md hover:bg-gray-800 transition"
         >
           <SiLeetcode /> LeetCode
-        </a>
+        </a> */}
         <a
           href="https://www.linkedin.com/in/madhur-bhawsar-aa71a8290/"
           target="_blank"
@@ -47,14 +47,14 @@ const Footer = () => {
         >
           <FaXTwitter /> 
         </a>
-        <a
+        {/* <a
           href="https://medium.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 border border-gray-600 px-4 py-2 rounded-md hover:bg-gray-800 transition"
         >
           <FaMedium /> Medium
-        </a>
+        </a> */}
       </div>
 
       {/* Reach Out Section */}
