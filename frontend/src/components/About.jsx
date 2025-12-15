@@ -49,7 +49,7 @@ const About = () => {
                 {/* Resume */}
                 <div>
                     <a 
-                        href="https://drive.google.com/file/d/1alno5Ry5KbJ8b8y-LQgA3jvTEkWz5SKI/view?usp=sharing" 
+                        href="https://drive.google.com/file/d/1QmxUip8dA9v9ciXdykv2rFUsDmZtc6Fu/view?usp=sharing" 
                         target="_blank" 
                         rel="noopener noreferrer"
                     >
