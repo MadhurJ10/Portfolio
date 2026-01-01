@@ -87,7 +87,7 @@ const Footer = () => {
         Made with <span className="text-red-500">❤️</span> by{" "}
         <span className="font-semibold">Madhur Bhawsar</span>
         <br />
-        © 2025 Madhur Bhawsar. All rights reserved.
+        © 2026 Madhur Bhawsar. All rights reserved.
       </div>
     </footer>
   );
