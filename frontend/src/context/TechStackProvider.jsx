@@ -68,7 +68,7 @@ const TechStackProvider = ({ children }) => {
   const projects = [
     {
       title: "Float Chat",
-      status: "Building",
+      status: "Completed",
       description: "FloatChat – An AI-powered conversational tool that lets users query and visualize oceanographic (ARGO NetCDF) and agricultural datasets using natural language. Built with GenAI, structured databases, and interactive dashboards for intuitive, real-time insights.",
       image: floatchat,
       liveLink: "https://privacy-guard-rho.vercel.app/",
