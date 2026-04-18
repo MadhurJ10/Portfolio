@@ -37,7 +37,7 @@ const Experience = () => {
 
         {/* Date */}
         <p className="text-sm text-gray-500 tracking-wide">
-          FEB 2026 — PRESENT
+          FEB 2026 — APRIL 2026
         </p>
       </div>
 
